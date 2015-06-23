@@ -269,7 +269,7 @@ function DrawTriangulate()
 			var myRadius = bubble.Radius * 2;
 			/*if(!isFinite(myRadius)) 
 			Для данного случая взял органичение 300. Для общего случая использовать сравнение с бесконечностью (см. на строчку выше)*/
-			if(myRadius >= 300)
+			if(myRadius >= 500)
 			{
 				/*Выделение цветом базовой линии*/
 				var visual2 = new Object();
