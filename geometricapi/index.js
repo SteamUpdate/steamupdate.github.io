@@ -12,7 +12,7 @@ rectangle.click(function(e)
 
 //ctrl+enter event
 $(document).keypress("enter", function(e){if(e.ctrlKey) ExecuteCode();})
-	$('#download').on('click', (event) => {
+	$('#download').on('click', function() {
   $('#datalink').attr(
     'href',
     'data:Application/octet-stream,' + pointsToJSON(pointArray)
